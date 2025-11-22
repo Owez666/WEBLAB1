@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Construct — Доставка бизнес-ланчей в Москве</title>
+  <!-- Подключение Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 1.5rem 2rem;
+      background-color: white;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+
+    nav {
+      display: flex;
+      gap: 2rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+    }
+
+    nav a:hover {
+      color: #d32f2f;
+      border-bottom: 2px solid #d32f2f;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .hero-image {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #222;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      border: 1px solid #eee;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    table th,
+    table td {
+      padding: 0.8rem 1.2rem;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    table th {
+      background-color: #fafafa;
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    footer {
+      background-color: black;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      margin-top: 3rem;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover {
+      color: #ffebee;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Food Construct</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#build-lunch">Собрать ланч</a>
+      <a href="#orders">Заказы</a>
+      <a href="#footer">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="image/interioor.jpg" alt="Вкусные бизнес-ланчи от Food Construct" class="hero-image">
+    </section>
+
+    <section id="about">
+      <h2>О нас</h2>
+      <p>Food Construct — доставка бизнес-ланчей в Москве. Мы привезем вам горячую вкусную еду в любую точку города к назначенному времени.</p>
+    </section>
+
+    <section id="advantages">
+      <h2>Преимущества Food Construct</h2>
+      <ul>
+        <li>Горячие блюда прямо к вашему столу</li>
+        <li>Быстрая доставка в течение часа</li>
+        <li>Широкий выбор блюд для любого вкуса</li>
+      </ul>
+    </section>
+
+    <section id="dishes">
+      <h2>Популярные блюда</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Название блюда</th>
+            <th>Цена (руб.)</th>
+            <th>Калории</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Куриная грудка с овощами</td>
+            <td>290</td>
+            <td>320</td>
+          </tr>
+          <tr>
+            <td>Говядина по-строгановски</td>
+            <td>320</td>
+            <td>410</td>
+          </tr>
+          <tr>
+            <td>Паста с грибами и сливочным соусом</td>
+            <td>280</td>
+            <td>380</td>
+          </tr>
+          <tr>
+            <td>Рыба на гриле с рисом</td>
+            <td>350</td>
+            <td>360</td>
+          </tr>
+          <tr>
+            <td>Овощное рагу с киноа</td>
+            <td>270</td>
+            <td>290</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p>Связаться с нами: <a href="tel:+74951234567">+7 (495) 123-45-67</a> | <a href="mailto:info@foodconstruct.ru">info@foodconstruct.ru</a></p>
+  </footer>
+
+</body>
+</html>
